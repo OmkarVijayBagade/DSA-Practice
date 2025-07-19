@@ -41,3 +41,21 @@ FindDuplicate.java
   - Problem statement (as a comment)
   - Approach
   - Time and Space Complexity
+---
+
+## ✅ Added Swift Solutions
+This repository now also contains **Swift solutions** with the same structure as Java:
+Swift/
+├── Arrays/
+│ ├── Easy/
+│ ├── Medium/
+│ └── Hard/
+├── Strings/
+│ ├── Easy/
+│ ├── Medium/
+│ └── Hard/
+└── Stack/
+├── Easy/
+├── Medium/
+└── Hard/
+
