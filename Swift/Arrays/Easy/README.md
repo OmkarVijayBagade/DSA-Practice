@@ -15,3 +15,4 @@ MaximumSubarray.swift
 
 ## ✅ Problems:
 - TwoSum 
+- FindMinMax

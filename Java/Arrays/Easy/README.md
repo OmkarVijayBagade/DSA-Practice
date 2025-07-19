@@ -15,3 +15,4 @@ MaximumSubarray.java
 
 ## ✅ Problems:
 - TwoSum
+- FindMinMax
