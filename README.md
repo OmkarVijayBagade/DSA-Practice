@@ -6,6 +6,7 @@ Problems are organized by **topic** and **difficulty** for easy navigation.
 ---
 
 ## ✅ Folder Structure
+```
 Java/
 ├── Arrays/
 │ ├── Easy/
@@ -19,7 +20,7 @@ Java/
 ├── Easy/
 ├── Medium/
 └── Hard/
-
+```
 
 ---
 
