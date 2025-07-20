@@ -19,3 +19,6 @@ MaximumSubarray.java
 - LongestCommonPrefix
 - RemoveDuplicates 
 - RotateArray
+- ContainsDuplicates
+- MoveZeroes
+

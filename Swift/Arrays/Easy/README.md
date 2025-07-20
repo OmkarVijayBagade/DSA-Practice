@@ -19,4 +19,6 @@ MaximumSubarray.swift
 - LongestCommonPrefix
 - RemoveDuplicates 
 - RotateArray
+- ContainsDuplicates
+- MoveZeroes
 
