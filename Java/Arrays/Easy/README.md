@@ -17,3 +17,4 @@ MaximumSubarray.java
 - TwoSum
 - FindMinMax
 - LongestCommonPrefix
+- RemoveDuplicates 

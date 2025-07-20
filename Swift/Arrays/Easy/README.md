@@ -17,4 +17,5 @@ MaximumSubarray.swift
 - TwoSum 
 - FindMinMax
 - LongestCommonPrefix
+- RemoveDuplicates 
 
