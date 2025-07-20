@@ -18,4 +18,5 @@ MaximumSubarray.swift
 - FindMinMax
 - LongestCommonPrefix
 - RemoveDuplicates 
+- RotateArray
 

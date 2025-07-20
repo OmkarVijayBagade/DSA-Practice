@@ -18,3 +18,4 @@ MaximumSubarray.java
 - FindMinMax
 - LongestCommonPrefix
 - RemoveDuplicates 
+- RotateArray
