@@ -45,6 +45,7 @@ FindDuplicate.java
 
 ## ✅ Added Swift Solutions
 This repository now also contains **Swift solutions** with the same structure as Java:
+```
 Swift/
 ├── Arrays/
 │ ├── Easy/
@@ -58,4 +59,4 @@ Swift/
 ├── Easy/
 ├── Medium/
 └── Hard/
-
+```
