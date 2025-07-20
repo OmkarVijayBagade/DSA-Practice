@@ -16,3 +16,4 @@ MaximumSubarray.java
 ## ✅ Problems:
 - TwoSum
 - FindMinMax
+- LongestCommonPrefix

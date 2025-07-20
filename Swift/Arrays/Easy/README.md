@@ -16,3 +16,5 @@ MaximumSubarray.swift
 ## ✅ Problems:
 - TwoSum 
 - FindMinMax
+- LongestCommonPrefix
+
