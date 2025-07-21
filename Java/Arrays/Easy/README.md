@@ -21,4 +21,6 @@ MaximumSubarray.java
 - RotateArray
 - ContainsDuplicates
 - MoveZeroes
+- MergeSortedArray
+- RemoveElement
 

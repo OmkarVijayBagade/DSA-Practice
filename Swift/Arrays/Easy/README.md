@@ -21,4 +21,6 @@ MaximumSubarray.swift
 - RotateArray
 - ContainsDuplicates
 - MoveZeroes
+- MergeSortedArray
+- RemoveElement
 
