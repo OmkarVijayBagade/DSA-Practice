@@ -16,3 +16,4 @@ MaximumSubarray.java
 ## ✅ Problems:
 - LengthOfLastWord
 - ReverseString
+- CheckPalindrome

@@ -10,4 +10,4 @@ func reverseString(_ s: String) -> String {
     }
     return String(chars)
 }
-print(reverseString("hello")) 
+print(reverseString("hello")) // "olleh"
