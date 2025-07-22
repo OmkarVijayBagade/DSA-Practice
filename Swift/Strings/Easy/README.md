@@ -17,3 +17,5 @@ MaximumSubarray.swift
 - LengthOfLastWord
 - ReverseString
 - CheckPalindrome
+- CountVowels
+- RemoveAllWhiteSpaces

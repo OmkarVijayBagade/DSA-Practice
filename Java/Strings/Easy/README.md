@@ -17,3 +17,6 @@ MaximumSubarray.java
 - LengthOfLastWord
 - ReverseString
 - CheckPalindrome
+- CountVowels
+- RemoveAllWhiteSpaces
+- ReverseWords
