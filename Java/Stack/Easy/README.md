@@ -15,3 +15,4 @@ MaximumSubarray.java
 
 ## ✅ Problems:
 - ValidParenthesis
+- MyStack (all the operations {push, pop, peek})
