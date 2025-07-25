@@ -16,3 +16,5 @@ MaximumSubarray.swift
 ## ✅ Problems:
 - ValidParenthesis
 - MyStack (all the operations {push, pop, peek})
+- ReverseString using Stack
+- DeleteMiddleElement
