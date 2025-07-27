@@ -1,49 +1,66 @@
 # Swift Cheat Sheet
 
-1. Variables & Constants
+## 1. Variables & Constants
+```swift 
 var name = "Omkar"      // Variable
 let age = 21            // Constant
+```
 
-2. Data Types
+## 2. Data Types
+```swift
 var str: String = "Hello"
 var num: Int = 10
 var pi: Double = 3.14
 var isOn: Bool = true
+```
 
-3. String Interpolation
+## 3. String Interpolation
+```swift
 let name = "Omkar"
 print("Hello, \(name)")
+```
 
-4. Arrays
+## 4. Arrays
+```swift
 var fruits = ["Apple", "Banana"]
 fruits.append("Mango")
 print(fruits[0])
+```
 
-5. Dictionaries
+## 5. Dictionaries
+```swift
 var person = ["name": "Omkar", "age": "21"]
 print(person["name"]!)
+```
 
-6. Sets
+## 6. Sets
+```swift
 var numbers: Set = [1, 2, 3, 3]
 print(numbers)   // {1, 2, 3}
+```
 
-7. If-Else
+## 7. If-Else
+```swift
 let score = 85
 if score > 90 {
     print("A")
 } else {
     print("B")
 }
+```
 
-8. Switch
+## 8. Switch
+```swift
 let day = 2
 switch day {
 case 1: print("Monday")
 case 2: print("Tuesday")
 default: print("Other day")
 }
+```
 
-9. Loops
+## 9. Loops
+```swift
 for i in 1...3 {
     print(i)
 }
@@ -53,69 +70,91 @@ while n > 0 {
     print(n)
     n -= 1
 }
+```
 
-10. Functions
+## 10. Functions
+```swift
 func greet(name: String) -> String {
     return "Hello \(name)"
 }
 print(greet(name: "Omkar"))
+```
 
-11. Optionals
+## 11. Optionals
+```swift
 var name: String? = "Omkar"
 print(name ?? "No Name") // Default value if nil
+```
 
-12. Optional Binding
+## 12. Optional Binding
 if let realName = name {
+```swift
     print(realName)
 }
+```
 
-13. Classes & Objects
+## 13. Classes & Objects
+```swift
 class Car {
     var brand = "Ford"
     func drive() { print("Driving") }
 }
 let myCar = Car()
 myCar.drive()
+```
 
-14. Structs
+## 14. Structs
+```swift
 struct Person {
     var name: String
 }
 let p = Person(name: "Omkar")
 print(p.name)
+```
 
-15. Enums
+## 15. Enums
+```swift
 enum Direction { case north, south }
 let dir = Direction.north
 print(dir)
+```
 
-16. Closures
+## 16. Closures
+```swift
 let add = { (a: Int, b: Int) -> Int in
     return a + b
 }
 print(add(2, 3))
+```
 
-17. Guard
+## 17. Guard
+```swift
 func check(age: Int?) {
     guard let a = age else { return }
     print("Age is \(a)")
 }
 check(age: 21)
+```
 
-18. Protocols
+## 18. Protocols
+```swift
 protocol Animal { func sound() }
 class Dog: Animal {
     func sound() { print("Bark") }
 }
 Dog().sound()
+```
 
-19. Extensions
+## 19. Extensions
+```swift
 extension Int {
     func square() -> Int { return self * self }
 }
 print(4.square())
+```
 
-20. Error Handling
+## 20. Error Handling
+```swift
 enum MyError: Error { case fail }
 func risky() throws { throw MyError.fail }
 do {
@@ -123,3 +162,4 @@ do {
 } catch {
     print("Error occurred")
 }
+```
