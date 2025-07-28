@@ -8,4 +8,6 @@ This folder contains Easy-level questions for Queue in Java.
 - ReverseQueueUsingStack 
 - ReverseQueueUsingRecurssion
 - ReverseQueue (both recurrsion and stack)
+- BinaryNumbers
+- FirstNonRepeatingElements
 

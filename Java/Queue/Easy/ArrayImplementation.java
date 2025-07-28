@@ -1,7 +1,5 @@
 package Java.Queue.Easy;
 
-
-
 public class ArrayImplementation {
     public static class queueArray{
         int f = -1; 
