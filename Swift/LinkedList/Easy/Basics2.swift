@@ -24,6 +24,17 @@ func insert(_ value: Int) {
     temp?.next = newNode
 }
 
+//Insert at beginning 
+func insertAtHed(_ value: Int){
+    let newNode = Node(value)
+    if head == nil{
+        head = newNode
+        return
+    }
+    newNode.next = head
+    head = newNode
+}
+
 // Display the list
 func display() {
     var temp = head
@@ -78,3 +89,6 @@ display()  // 10 -> 30 -> 40 -> nil
 
 print("Search 30:", search(30))  // true
 print("Search 99:", search(99))  // false
+
+insertAtHed(1)
+display()
