@@ -12,16 +12,28 @@ public class Basics3 {
     }
     static Node head = null;
 
-    static void insert(int value) {
+    static void insertAtTheTail(int value) {
         Node newNode = new Node(value);
         if (head == null) {
             head = newNode;
             return;
         }
         Node temp = head;
-        while (temp.next != null)
+        while (temp.next != null){
             temp = temp.next;
+        }
         temp.next = newNode;
+    }
+
+    static void insertAtTheHead(int value){
+        Node newNode = new Node(value);
+        if (head == null) {
+            head = newNode;
+            return;
+        }
+        newNode.next = head;
+        head = newNode;
+            
     }
 
     static void display() {
@@ -61,9 +73,9 @@ public class Basics3 {
     }
 
     public static void main(String[] args) {
-        insert(20);
-        insert(40);
-        insert(69);
+        insertAtTheTail(20);
+        insertAtTheTail(40);
+        insertAtTheTail(69);
 
         display();
 
@@ -74,5 +86,8 @@ public class Basics3 {
         System.out.println("Search 30: " + search(30)); // true
         System.out.println("Search 20: " + search(20)); // false
 
+        insertAtTheHead(1);
+
+        display();
     }
 }
