@@ -13,7 +13,7 @@ public class RemoveElement {
 
     public static void main(String[] args) {
         int[] nums = {3,2,2,3};
-        int val = 3;
+        int val = 2;
         int k = removeElement(nums, val);
 
         System.out.println("New Length: " + k);

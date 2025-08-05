@@ -1,5 +1,6 @@
 // Question
-// Given an array nums and a target value, find two numbers such that they add up to the target. 
+// Given an array nums and a target value,
+//  find two numbers such that they add up to the target. 
 // Return their indices.
 
 package Java.Arrays.Easy;

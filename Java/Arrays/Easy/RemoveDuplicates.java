@@ -20,8 +20,14 @@ public class RemoveDuplicates {
      }
 
      public static void main(String[] args) {
-        int[] nums = {1,1,2,2,3};
-        System.out.println(removeDuplicates(nums));
+    int[] nums = {1, 1, 2, 2, 3};
+    int newLength = removeDuplicates(nums);
 
-     }
+    System.out.println("New Length: " + newLength);
+    System.out.print("Array after removal: ");
+    for (int i = 0; i < newLength; i++) {
+        System.out.print(nums[i] + " ");
+    }
+}
+
 }
