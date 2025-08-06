@@ -16,10 +16,23 @@ Java/
 │ ├── Easy/
 │ ├── Medium/
 │ └── Hard/
-└── Stack/
-├── Easy/
-├── Medium/
-└── Hard/
+├── Stack/
+│ ├── Easy/
+│ ├── Medium/
+│ └── Hard/
+├── LinkedList/
+│ ├── Easy/
+│ ├── Medium/
+│ └── Hard/
+├── Patterns/
+│ ├── Level1/
+│ ├── Level2/
+│ ├── Level3/
+│ └── Level4/
+└── ArrayList/
+  ├── Easy/
+  ├── Medium/
+  └── Hard/
 ```
 
 ---
@@ -55,8 +68,12 @@ Swift/
 │ ├── Easy/
 │ ├── Medium/
 │ └── Hard/
-└── Stack/
-├── Easy/
-├── Medium/
-└── Hard/
+├── Stack/
+│ ├── Easy/
+│ ├── Medium/
+│ └── Hard/
+├── LinkedList/
+│ ├── Easy/
+│ ├── Medium/
+│ └── Hard/
 ```
