@@ -27,3 +27,6 @@ hs_err_pid*
 
 # macOS system files
 .DS_Store
+
+#venv 
+dsa-python
