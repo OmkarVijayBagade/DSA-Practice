@@ -1,6 +1,6 @@
-# Arrays - Hard (Python)
+# Stack - Easy (Python)
 
-This folder contains **Hard-level Arrays problems** solved in Python.
+This folder contains **Stack problems** solved in Python.
 
 ---
 

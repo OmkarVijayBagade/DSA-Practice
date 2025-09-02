@@ -1,6 +1,6 @@
-# Arrays - Easy (Python)
+# Strings - Easy (Python)
 
-This folder contains **Easy-level Arrays problems** solved in Python.
+This folder contains **Strings problems** solved in Python.
 
 ---
 
