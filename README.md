@@ -1,38 +1,31 @@
 # DSA Practice (Java)
 
 This repository contains my practice for **Data Structures and Algorithms** in **Java**.  
-Problems are organized by **topic** and **difficulty** for easy navigation.
+Problems are organized by **topic**
+ for easy navigation.
 
 ---
 
 ## ✅ Folder Structure
 ```
 Java/
+|
 ├── Arrays/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+│ 
 ├── Strings/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+│ 
 ├── Stack/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+│ 
 ├── LinkedList/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+│ 
 ├── Patterns/
 │ ├── Level1/
 │ ├── Level2/
 │ ├── Level3/
 │ └── Level4/
+|
 └── ArrayList/
-  ├── Easy/
-  ├── Medium/
-  └── Hard/
+  
 ```
 
 ---
@@ -48,8 +41,7 @@ FindDuplicate.java
 ---
 
 ## ✅ Goals
-- Practice problems daily.
-- Start from **Easy**, then **Medium**, then **Hard**.
+- Practice problems daily..
 - Each file will include:
   - Problem statement (as a comment)
   - Approach
@@ -61,19 +53,15 @@ This repository now also contains **Swift solutions** with the same structure as
 ```
 Swift/
 ├── Arrays/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+│ 
 ├── Strings/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+│ 
 ├── Stack/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+|
 ├── LinkedList/
-│ ├── Easy/
-│ ├── Medium/
-│ └── Hard/
+|
+├── Queue/
+|
+├── Recurssion/
+
 ```
