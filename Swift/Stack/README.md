@@ -1,6 +1,6 @@
-# Stack - Easy (Swift)
+# Stack(Swift)
 
-This folder contains **Easy-level Stack problems** solved in Swift.
+This folder contains **Stack problems** solved in Swift.
 
 ---
 

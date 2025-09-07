@@ -1,6 +1,6 @@
-# Strings - Easy (Swift)
+# Strings (Swift)
 
-This folder contains **Easy-level Strings problems** solved in Swift.
+This folder contains **Strings problems** solved in Swift.
 
 ---
 

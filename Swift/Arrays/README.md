@@ -1,6 +1,6 @@
-# Arrays - Easy (Swift)
+# Arrays (Swift)
 
-This folder contains **Easy-level Arrays problems** solved in Swift.
+This folder contains **Arrays problems** solved in Swift.
 
 ---
 

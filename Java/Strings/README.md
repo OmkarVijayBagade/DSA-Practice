@@ -1,6 +1,6 @@
-# Strings - Easy
+# Strings 
 
-This folder contains **Easy-level Strings problems** in Java.
+This folder contains **Strings problems** in Java.
 
 ---
 

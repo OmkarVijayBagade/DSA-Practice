@@ -1,6 +1,6 @@
-# Queue - Easy
+# Queue 
 
-This folder contains Easy-level questions for Queue in Java.
+This folder contains questions for Queue in Java.
 
 ## ✅ Problems:
 - DisplayQueue

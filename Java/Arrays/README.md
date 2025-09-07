@@ -1,6 +1,6 @@
-# Arrays - Easy
+# Arrays 
 
-This folder contains **Easy-level Arrays problems** in Java.
+This folder contains **Arrays problems** in Java.
 
 ---
 

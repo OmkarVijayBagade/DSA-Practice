@@ -1,6 +1,6 @@
-# Stack - Easy
+# Stack 
 
-This folder contains **Easy-level Stack problems** in Java.
+This folder contains **Stack problems** in Java.
 
 ---
 

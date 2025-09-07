@@ -1,6 +1,6 @@
-# LinkedList - Easy
+# LinkedList
 
-This folder contains Easy-level questions for LinkedList in Swift.
+This folder contains questions for LinkedList in Swift.
 
 ## ✅ Problems:
 - Basics

@@ -1,6 +1,6 @@
-# ArrayList - Easy
+# ArrayList 
 
-This folder contains **Easy-level ArrayList problems** in Java.
+This folder contains **ArrayList problems** in Java.
 
 ---
 

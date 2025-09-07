@@ -1,6 +1,6 @@
-# Recursion - Easy
+# Recursion 
 
-This folder contains Easy-level questions for Recursion in Java.
+This folder contains questions for Recursion in Java.
 
 ## ✅ Problems:
 - SimpleRecursionExample
