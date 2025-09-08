@@ -69,6 +69,63 @@ def remove_element(head,data):
         current.next = current.next.next 
     return head 
 
+# --------------------------------------------------
+#   Reverse the list 
+# --------------------------------------------------
+
+def do_something_crazy(head):
+    result = []
+    current = head 
+    while current:
+        result.append(current.data)
+        current = current.next 
+    
+    index = len(result) - 1
+    while index >= 0:
+        print(result[index], end=' -> ')
+        index = index - 1
+    print('None') 
+
+# --------------------------------------------------
+#  Calculate the length of the list
+# --------------------------------------------------
+
+def length_of_list(head):
+    length = 0
+    current = head 
+    while current:
+        length += 1
+        current = current.next 
+    return f"\nLength of linked list: {length}"
+
+# --------------------------------------------------
+#  Calculate the length of the list
+# --------------------------------------------------
+
+def find_middle_element(head):
+    fast = head 
+    slow = head 
+    while fast and fast.next:
+        fast = fast.next.next
+        slow = slow.next
+    return slow.data if slow else None
+
+# --------------------------------------------------
+#  Find nth element in the list
+# --------------------------------------------------
+
+def find_nth_element(head,n):
+    first = head 
+    second = head 
+    for _ in range(n):
+        if not first:
+            return None
+        first = first.next
+    while first:
+        first = first.next
+        second = second.next
+    return second.data if second else None
+
 # __________________________________________________
 # --------------------------------------------------
 #   example usage
@@ -81,23 +138,40 @@ head = add_at_tail(head, 20)
 head = add_at_tail(head, 50)
 head = add_at_beginning(head, 5)
 
-print("\nInitial Linked List:")
+print("\nInitial Linked List:",end=' ')
 print_list(head)
 
 pop(head)
 
-print("\nAfter Pop Last Element:")
+print("\nAfter Pop Last Element:",end=' ')
 print_list(head)
 
 remove_element(head, 20)
 
-print("\nAfter Removing Element:")
+print("\nAfter Removing Element:",end=' ')
 print_list(head)
 
 head = add_at_tail(head, 40)
 head = add_at_tail(head, 60)
 
-print("\nNew List:")
+print("\nNew List:",end=' ')
 print_list(head)
+
+print("\nReversed Print:", end=' ')
+do_something_crazy(head)
+
+print(length_of_list(head))
+
+print("\nMiddle element in list:",end=' ')
+print(find_middle_element(head))
+
+print(f"\nFind nth element: ",end=' ')
+print(find_nth_element(head,50))
+
+
+
+
+
+
 
 
