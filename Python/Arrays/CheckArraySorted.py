@@ -6,7 +6,7 @@
 # Input: [3, 1, 2]
 # Output: False
 
-def sortedOrNot(array):
+def sortedOrNot(array)->bool:
     for i in range(1,len(array)):
         if array[i] < array[i-1]:
             return False 
