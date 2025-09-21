@@ -1,15 +1,13 @@
-def isPalindrome(s) -> bool:
-    s = s.lower()
-    left, right = 0, len(s)-1
-    while left<right:
-        if c != s.charAt(right):
+def isPalindrome(s: str)->bool:
+    n = len(s)
+    left,right = 0, n-1
+    
+    while left < right :
+        if s[left]!=s[right]: 
             return False
-        left+=1
+        left+=1 
         right-=1
-    return True
 
+    return True 
 
-
-
-string = "Madam"
-isPalindrome(string)
+print(isPalindrome(""))
